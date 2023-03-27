@@ -1,6 +1,7 @@
 import Challenge01 from "./challenges/Challenge01";
 import DescribingTheUi from "./components/DescribingTheUi";
-import Gallery from "./components/Profile";
+import Gallery from "./components/Gallery";
+import { Profile } from "./components/Profile";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <DescribingTheUi />
       <Challenge01 /> */}
       <Gallery />
+      <Profile />
     </div>
   );
 }
