@@ -1,3 +1,4 @@
+import Challenge01 from "./challenges/Challenge01";
 import DescribingTheUi from "./components/DescribingTheUi";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div>
       <h1>Describing the UI</h1>
       <DescribingTheUi />
+      <Challenge01 />
     </div>
   );
 }
